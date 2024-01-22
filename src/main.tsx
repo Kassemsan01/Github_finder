@@ -11,15 +11,15 @@ import Repos from "./routes/Repos";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Github_finder",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/Github_finder",
         element: <Home />,
       },
       {
-        path: "/repos/:username",
+        path: "/Github_finder",
         element: <Repos />,
       },
     ],
